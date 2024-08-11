@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+/*frontpage of website*/
+body{
+    background-color: whitesmoke;
+}
+.front {
+    background-image: url(download\ \(1\).png);
+    height: 580px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-color: whitesmoke;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*navbar start*/
+nav {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+span {
+    color: navy;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: wavy;
+    border: #ea1538;
+    box-shadow: #ddd;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+    text-decoration:none ;
+}
+nav button{
+    padding: 5px 10px;
+    background: none;
+    border: rgb(46, 107, 161) solid 2px;
+    color: black;
+    border-radius: 10px;
+    
+}
+nav button:hover{
+    background-color: rgb(46, 107, 161);
+    transition: .0.3s;
+    color: white;
+}
+/*nav-bar end*/
+/*login start*/
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .btn-primary {
+            background-color: #3a91bd;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #27a39d;
+        }
+        .modal-content {
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        .modal-header {
+            border-bottom: none;
+            padding-bottom: 0;
+            background: linear-gradient(whitesmoke);
+            color: black;
+            padding: 20px;
+        }
+        .modal-header .close {
+            font-size: 1.5rem;
+            color: black;
+            opacity: 1;
+        }
+        .modal-body {
+            padding: 30px;
+            background-color: #f8f9fa;
+        }
+        .form-control {
+            border-radius: 25px;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        .form-control:focus {
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(249, 251, 252, 0.858);
+        }
+        .btn {
+            border-radius: 25px;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .btn-primary {
+            background-color: #28a745;
+        }
+        .btn-primary:hover {
+            background-color: #218838;
+        }
+        .modal-title {
+            font-weight: bold;
+            color: black;
+        }
+        .modal.fade .modal-dialog {
+            transform: translate(0, -50px);
+            transition: transform 0.3s ease-out;
+        }
+        .modal.show .modal-dialog {
+            transform: translate(0, 0);
+        }
+        .modal-backdrop {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+   
+/*login end*/
